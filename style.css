@@ -1,5 +1,9 @@
 body {
     background-color: blue;
+
+}
+div {
+    display: none;
 }
 
 @media screen and (max-width: 300px) { 
@@ -10,5 +14,23 @@ body {
 @media screen and (min-width : 300px) and (max-width : 768px ){
     body {
         background-color: green;
+    }
+}
+
+
+@media all and (max-width : 300px) {
+    #small {
+        display: block;
+    }
+}
+@media all and (min-width : 300px) and (max-width : 768px) {
+    #medium {
+        display: block;
+    }
+}
+
+@media all and (min-width : 768px) {
+    #large {
+        display: block;
     }
 }
